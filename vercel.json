@@ -10,6 +10,13 @@
 		{
 			"src": "(.*)",
 			"dest": "src/server.ts"
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "/.*",
+			"dest": "/index.html"
 		}
 	]
 }
